@@ -1,0 +1,105 @@
+
+
+.header {
+    color: #212224;
+    text-decoration: none;
+    font-family: 'Arial Rounded MT';
+    font-size: 20px;
+    transition: 0.5s linear;
+}
+
+    .header:hover {
+        font-size: 25px;
+        color: #520821;
+    }
+
+.logo{
+    text-decoration: none;
+    transition: 0.5s linear;
+    text-align:center;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.headline {
+    color: #212224;
+    text-decoration: none;
+    font-family: 'Comic Sans MS';
+    text-align:center;
+}
+
+p {
+    color: #212224;
+    text-align: justify;
+    font-family: Serif;
+    font-size: 20px;
+    text-indent: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration:none;
+    font-weight:normal;
+}
+
+.pet_info {
+    color: #212224;
+    text-align: justify;
+    padding-left: 40%;
+
+}
+
+a {
+    text-decoration: none;
+    color: #212224;
+    transition: 0.5s linear;
+    text-align: center;
+}
+
+    a:hover {
+        color: blue;
+        font-size:20px;
+    }
+
+    .carousel{
+        table-layout:fixed;
+        width: 100%;
+    }
+
+.carousel_element {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    text-align: center;
+    color: #212224;
+}
+
+form#registration {
+    background: #e9e9f7;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    counter-reset: fieldsets;
+    padding: 20px;
+    width: 400px;
+}
+
+form#registration fieldset {
+border: none;
+margin-bottom: 10px;
+}
+
+    form#registration legend {
+        text-align: center;
+        color: #212224;
+        font-family: 'Comic Sans MS';
+        font-size: 20px;
+    }
+
+    form#registration button {
+        border-radius: 8px;
+        background: #426b3a;
+        color:antiquewhite;
+    }
