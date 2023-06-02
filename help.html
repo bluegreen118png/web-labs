@@ -1,0 +1,86 @@
+  <!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <p class="logo"><a href="index.html"><img src="images/logo.png" width="150" height="150"></a></p>
+    <hr />
+
+    <table width="100%" align="center">
+        <tr>
+            <th><a class="header" href="cats.html"><pre>К О Т И К И</pre></a></th>
+            <th><a class="header" href="dogs.html"><pre>П Е С И К И</pre></a></th>
+            <th><a class="header" href="help.html"><pre>Д О П О М О Г А</pre></a></th>
+            <th><a class="header" href="about.html"><pre>П Р О   Н А С</pre></a></th>
+        </tr>
+    </table>
+
+    <hr />
+
+    <table width="100%" align="center">
+        <tr>
+            <th>
+                <div align="center">
+                    <h1><pre class="headline">Д О П О М О Г А</pre></h1>
+                    <img src="images/help/help.jpg" width="1300">
+                    <p>
+                        Ми вдячні за ваш інтерес до нашого притулку для тварин! Наш сайт є важливим інструментом для поширення інформації про
+                        бездомних улюбленців, а також для залучення допомоги від добрих сердець. Ваша підтримка допоможе нам забезпечити тваринам
+                        медичну допомогу, корм, прогулянки та гідний догляд. Будь ласка, розгляньте можливість пожертвувати або стати волонтером.
+                        Ваша допомога може зробити велику різницю в житті цих незахищених тварин.
+                    </p>
+                </div>
+            </th>
+        </tr>
+    </table>
+
+    <hr />
+
+    <div align="center">
+        <h2><pre class="headline">Р Е К В І З И Т И</pre></h2>
+
+        <p class="footer">monobank: 5375 4141 1923 4465</p>
+        <hr />
+        <p class="footer">Адреса: м. Харків, вул. Пушкінська 79/1</p>
+        <hr />
+        <p class="footer">Контакти: +380996625850</p>
+    </div>
+    <hr />
+    <div align="center">
+        <form id="registration">
+            <fieldset>
+                <legend>Допомога</legend>
+                <hr />
+                <table class="alignment">
+                    <tr>
+                        <td> <label for=fio>ПІБ</label> </td>
+                        <td> <input id=fio name=fio type=text placeholder="Іванов Іван Іванович" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for=email>Email</label></td>
+                        <td> <input id=email name=email type=email placeholder="ivanovivan@gmail.com" required> </td>
+                    </tr>
+                    <tr>
+                        <td> <label for=phone>Номер телефону</label> </td>
+                        <td> <input id=phone name=phone type=tel placeholder="+3801 2345-67-89" pattern="\+\d{4} \d{4}-\d{2}-\d{2}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for=dateofbirth>Дата народження</label></td>
+                        <td><input id=dateofbirth name=dateofbirth type="date" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for=help>Пропозиції щодо допомоги</label></td>
+                        <td><textarea id=help name=help placeholder="Опишіть ваші пропозиції щодо допомоги притулку" rows=5></textarea></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <hr />
+            <fieldset>
+                <button type=submit>Надіслати дані</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
